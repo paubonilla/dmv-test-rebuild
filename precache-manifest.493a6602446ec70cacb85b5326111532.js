@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "09a85c18c0b3af4e750e21a98a966c62",
+    "revision": "1079d48fa26a877fd8cd4333c6f67cdc",
     "url": "/dmv-permit-practice-test/index.html"
   },
   {
-    "revision": "9365cb8bfba57fc43b43",
+    "revision": "f05bb1163febfa879236",
     "url": "/dmv-permit-practice-test/static/css/main.ee8240d0.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/dmv-permit-practice-test/static/js/2.87af84a0.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9365cb8bfba57fc43b43",
-    "url": "/dmv-permit-practice-test/static/js/main.c34bd67b.chunk.js"
+    "revision": "f05bb1163febfa879236",
+    "url": "/dmv-permit-practice-test/static/js/main.cca3dc48.chunk.js"
   },
   {
     "revision": "439e531320bf1ee02c6a",
