@@ -4,7 +4,7 @@ export default function Quiz({ questions, qIndex, currentChoice, onClickAnswer, 
     const currentQuestion = questions[qIndex] // this is where you call the props from questions.json ??
     return (
         <>
-            <h1>CA, DMV Permit Practice Test</h1>
+            <h1>DMV Permit Practice Test, CA</h1>
             <span>Question {qIndex + 1} of 20</span>
             <h1>{currentQuestion.description}</h1>
             <ul>
