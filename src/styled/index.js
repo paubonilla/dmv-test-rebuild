@@ -17,7 +17,7 @@ export const AppInner = styled.div`
   flex-direction: column;
   h1 {
     line-height: 1.2;
-    color: #333436;
+    color: #e8e8e8;
     margin-bottom: 24px;
   }
   button {
