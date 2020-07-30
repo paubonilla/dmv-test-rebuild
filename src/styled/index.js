@@ -13,6 +13,15 @@ export const AppInner = styled.div`
   margin: 0 auto;
   width: 100%;
   max-width: 600px;
+  @media (max-width: 768px) {
+    max-width: 400px;
+  }
+  @media (max-width: 480px) {
+    max-width: 300px;
+  }
+  @media (max-width: 320px) {
+    max-width: 250px;
+  }
   display: flex;
   flex-direction: column;
   h1 {
@@ -22,7 +31,6 @@ export const AppInner = styled.div`
   }
   button {
     margin-top: 36px;
-    width: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
