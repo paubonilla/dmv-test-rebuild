@@ -1,12 +1,19 @@
 import React from 'react'
 
 function ScoreCard({ score, setQIndex }) {
+  const question = `question${score.length > 1 ? "s" : ""}`;
   return (
     <>
       <span>
-        {score}
+        Congrats, you got {score} {question} right!
       </span>
-      <button onClick={() => setQIndex(1)}>Review</button>
+      <span>
+        To take the test again just refresh this page
+        <br />
+        <br />
+        Or click Review to see the questions with correct answers
+      </span>
+      <button onClick={() => setQIndex(0)}>Review</button>
     </>
   )
 }

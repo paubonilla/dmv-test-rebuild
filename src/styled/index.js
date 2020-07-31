@@ -25,6 +25,12 @@ export const AppInner = styled.div`
   display: flex;
   flex-direction: column;
   h1 {
+    @media (max-width: 480px) {
+      font-size: 28px;
+    }
+    @media (max-width: 320px) {
+      font-size: 24px;
+    }
     line-height: 1.2;
     color: #e8e8e8;
     margin-bottom: 24px;

@@ -8,7 +8,7 @@ export default function Quiz({
     nextQuestion,
     isReviewMode
 }) {
-    const currentQuestion = questions[qIndex] // this is where you call the props from questions.json
+    const currentQuestion = questions[qIndex] // this is where it calling all the data from questions.json
     return (
         <>
             <h1>DMV Permit Practice Test, CA</h1>
@@ -30,7 +30,7 @@ export default function Quiz({
                     )
                 })}
             </ul>
-            <button disabled={!currentChoice && !isReviewMode} onClick={nextQuestion}>Next Question</button>
+            {<button disabled={!currentChoice && !isReviewMode} onClick={nextQuestion}>Next Question</button>}
         </>
     )
 }
