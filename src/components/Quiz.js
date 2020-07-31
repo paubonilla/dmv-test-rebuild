@@ -1,7 +1,14 @@
 import React from 'react'
 
-export default function Quiz({ questions, qIndex, currentChoice, onClickAnswer, nextQuestion, isReviewMode }) {
-    const currentQuestion = questions[qIndex] // this is where you call the props from questions.json ??
+export default function Quiz({
+    questions,
+    qIndex,
+    currentChoice,
+    onClickAnswer,
+    nextQuestion,
+    isReviewMode
+}) {
+    const currentQuestion = questions[qIndex] // this is where you call the props from questions.json
     return (
         <>
             <h1>DMV Permit Practice Test, CA</h1>
