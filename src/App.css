@@ -2,8 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background: #d7d7d9;
 }
 
 *::selection {
-  background: rgb(0, 255, 200);
+  background: #09adbe;
 }

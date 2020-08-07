@@ -12,7 +12,7 @@ export const AppContainer = styled.div`
 export const AppInner = styled.div`
   margin: 0 auto;
   width: 100%;
-  max-width: 600px;
+  max-width: 500px;
   @media (max-width: 768px) {
     max-width: 400px;
   }
@@ -32,7 +32,7 @@ export const AppInner = styled.div`
       font-size: 24px;
     }
     line-height: 1.2;
-    color: #e8e8e8;
+    color: #194059;
     margin-bottom: 24px;
   }
   button {
@@ -40,6 +40,7 @@ export const AppInner = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+background: #AABE7A;
   }
   ul {
     display: flex;
@@ -54,15 +55,17 @@ export const AppInner = styled.div`
       cursor: pointer;
       transition: 0.4s ease;
       strong {
-        transition: 0.8s ease;
+        transition: 0.4s ease;
       }
+      
     }
     li.isSelected {
       strong {
-        color: gray;
+        color: #283618;
+        background-color: #BFCDD9;
       }
-      color: gray;
-      background-color: darkgray;
+      color: #283618;
+      background-color: #BFCDD9;
     }
     li.isCorrect {
       strong {
@@ -73,9 +76,13 @@ export const AppInner = styled.div`
     }
   }
   span {
+    color: #5E8BA5;
     display: flex;
-    margin-bottom: 24px;
+    margin-bottom: 5px;
     flex-direction: column;
     justify-content: space-around;
+    &::selection {
+      color: #194059;
+    }
   }
 `

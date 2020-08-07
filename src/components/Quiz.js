@@ -8,7 +8,7 @@ export default function Quiz({
     nextQuestion,
     isReviewMode
 }) {
-    const currentQuestion = questions[qIndex] // this is where it calling all the data from questions.json
+    const currentQuestion = questions[qIndex]
     return (
         <>
             <h1>DMV Permit Practice Test, CA</h1>
